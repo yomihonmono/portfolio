@@ -1,0 +1,66 @@
+body {
+    background-color: #2E2E38;
+    color: aliceblue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 3px;
+    transform: rotate(1deg);
+    border-bottom: 3px solid orange;
+    border-right: 3px solid orange;
+}
+
+.container-img {
+    height: 52vh;
+    width: 200px;
+}
+
+.nombre {
+    display: inline;
+}
+
+.nombre-imagen {
+    border-bottom: 1px solid orange;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.tribute {
+    padding-top: 20px;
+    max-width: 750px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+    margin-top: 90px;
+    font-size: 48px;
+    margin-bottom: -30px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    /* transform: rotate(10deg); */
+}
+
+.fecha {
+    font-size: 30px;
+}
+
+#img-caption {
+    margin-left: 25px;
+    text-decoration: none;
+    transform: rotate(1deg);
+    color: orange;
+}
+
+.apa {
+    font-size: 16px;
+}
+
+span {
+    color: orange;
+}

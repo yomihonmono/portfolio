@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="title">Suisei Survey</h1>
+  </head>
+  <body>
+    <p id="description">A survey about Hoshimachi Suisei music</p>
+    <form id="survey-form" method="post" action="index.html">
+
+      <fieldset>
+        <label id="name-label" for="name">Your name: </label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required />
+
+        <label id="email-label" for="email">Your email: </label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" required />
+
+        <label id="number-label" for="number">Your age: </label>
+        <input id="number" name="age" type="number" min="18" max="100" placeholder="Enter your age" required />
+        </fieldset>
+
+      <fielset>
+        <legend>¿Do you like Suisei?</legend>
+        <label for="yes"><input id="yes" name="like-suisei" type="radio" value="Yes" /> Yes</label>
+        <label for="no"><input id="no" name="like-suisei" type="radio" value="No" /> No</label>
+
+        <label for="dropdown">How did you find Suisei?</label>
+      <select id="dropdown" name="dropdown">
+        <option value="">(Select an option)</option>
+        <option value="youtube">YouTube</option>
+        <option value="friend">Friend Recommendation</option>
+        <option value="hololive">Hololive</option>
+        <option value="spotify">Spotify</option>
+      </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Albums you listened to</legend>
+        <label><input type="checkbox" name="albums" value="stellar" /> Still Stellar Stellar</label>
+        <label><input type="checkbox" name="albums" value="specter" /> Specter</label>
+        <label><input type="checkbox" name="albums" value="shinsei" /> Shinsei Mokuroku</label>
+
+        <label for="fav-song">What's your favourite song?
+        <select id="fav-song" name="fav-song">
+          <option value="">(Select one song)</option>
+          <option value="stellar-stellar">Stellar Stellar</option>
+          <option value="next-color-planet">NEXT COLOR PLANET</option>
+          <option value="tenkyuu">Tenkyuu, Suisei wa Yoru wo Mataide</option>
+          <option value="ghost">GHOST</option>
+          <option value="bye-bye-rainy">bye bye rainy</option>
+          <option value="jibunkatte">JibunkatteDazzling</option>
+          <option value="bluerose">Bluerose</option>
+          <option value="comet">comet</option>
+          <option value="andromeda">Andromeda</option>
+          <option value="je-taime">Je t'aime.</option>
+          <option value="starry-jet">Starry Jet</option>
+          <option value="kakero">Kakero</option>
+          <option value="wii-wii-woo">Shakunetsu Nite Junjou (wii-wii-woo)</option>
+          <option value="template">TEMPLATE</option>
+          <option value="michizure">Michizure</option>
+          <option value="aseta-hanamidori">Aseta Hanamidori</option>
+          <option value="true-girl-show">TRUE GIRL SHOW</option>
+          <option value="happy-transmission">My Happy Transmission</option>
+          <option value="debuntante-ball">debutante ball</option>
+          <option value="7days">7days</option>
+          <option value="damn-good-day">Damn Good Day</option>
+          <option value="newton">Newton</option>
+          <option value="soiree">soirée</option>
+          <option value="pathfinder">Pathfinder</option>
+          <option value="bibbidiba">BIBBIDIBA</option>
+          <option value="awake">AWAKE</option>
+          <option value="venus-bug">Venus Bug</option>
+          <option value="caramel-pain">Caramel pain</option>
+          <option value="moonlight">Moonlight</option>
+          <option value="deadpool">DEADPOOL</option>
+          <option value="rekuiemu">Rekuiemu (Hoshimachi Suisei ver.)</option>
+          <option value="xion">XION</option>
+          <option value="coon-and-heart">cocoon and heart</option>
+          <option value="kireigoto">Kireigoto</option>
+          <option value="orbital-period">Orbital Period</option>
+        </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Describe what you like about Suisei</legend>
+        <textarea id="describe" name="describe" rows="3" cols="25" placeholder="I like her music because..."></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+  <footer></footer>
+</html>
